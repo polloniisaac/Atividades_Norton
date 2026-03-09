@@ -1,0 +1,24 @@
+1-O que e um Tipo Abstrato de Dados (TAD) e qual a caracterıstica fundamental na sua
+utilização?
+Resposta: 
+Um TAD é um modelo matemático composto por uma coleção de dados e um conjunto de operações que podem ser realizadas sobre esses dados.
+Ele define o que o dado faz, mas não como ele é implementado internamente.
+
+
+2. Quais as vantagens de se programar com TADs?
+Programar utilizando TADs traz benefícios que impactam diretamente a qualidade e a manutenção do código:
+
+Modularidade: O código fica dividido em partes menores e independentes.
+Você pode desenvolver e testar o TAD separadamente do restante do programa.
+
+Reutilização: Uma vez que você criou um TAD (como uma Pilha ou Lista), ele pode ser usado em diversos
+projetos diferentes sem necessidade de reescrever o código.
+
+Facilidade de Manutenção: Se você descobrir uma forma mais rápida de implementar a estrutura interna do TAD, pode alterá-la 
+sem quebrar o restante do programa, desde que mantenha a mesma interface (as funções continuem recebendo e devolvendo os mesmos tipos).
+
+Redução de Erros: Como o acesso aos dados é restrito, evita-se que outras partes do programa alterem
+informações sensíveis de forma acidental ou indevida.
+
+Abstração: O programador foca na lógica do problema (o "uso") em vez de se preocupar
+com detalhes de baixo nível (como ponteiros ou alocação de memória) o tempo todo.
